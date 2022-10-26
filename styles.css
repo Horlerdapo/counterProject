@@ -3,3 +3,67 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    background-color: rgb(66, 95, 74);
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+h1 {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+.counter-number {
+    margin-top: 2rem;
+    padding: 10px;
+    font-size: 5rem;
+}
+
+input {
+    width: 80px;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    height: 2rem;
+    margin: 2rem auto;
+}
+
+.button-container {
+    margin: 2rem auto;
+}
+
+button {
+    padding: 10px 25px;
+    border-radius: 4px;
+    border: 1px solid #fff;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.decrease-button {
+    background-color: rgb(216, 55, 55);
+    color: #fff;
+    border: 1px solid #fff;
+}
+.increase-button {
+    background-color: rgb(62, 191, 66);
+}
+
+.reset-button {
+    background-color: rgb(30, 35, 30);
+}
