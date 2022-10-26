@@ -5,7 +5,7 @@
 }
 
 body {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: center;
@@ -14,7 +14,8 @@ body {
 }
 
 .container {
-    background-color: rgb(66, 95, 74);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #000;
     margin-top: 30px;
     border-radius: 5px;
     padding: 20px;
@@ -35,11 +36,13 @@ h1 {
 }
 
 input {
+    background-color: #fff;
+    border: 1px solid #000;
     width: 80px;
+    font-size: 1.2rem;
     border-radius: 3px;
     outline: none;
-    border: none;
-    height: 2rem;
+    height: 2.7rem;
     margin: 2rem auto;
 }
 
@@ -50,20 +53,20 @@ input {
 button {
     padding: 10px 25px;
     border-radius: 4px;
-    border: 1px solid #fff;
+    border: none;
     text-transform: capitalize;
     color: #fff;
+    outline: none;
 }
 
-.decrease-button {
+#decrease-button {
     background-color: rgb(228, 76, 76);
     color: #fff;
-    border: 1px solid #fff;
 }
-.increase-button {
+#increase-button {
     background-color: rgb(62, 191, 66);
 }
 
-.reset-button {
+#reset-button {
     background-color: rgb(30, 35, 30);
 }
